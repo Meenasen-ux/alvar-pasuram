@@ -1,0 +1,6 @@
+{
+  "name": "Āḻvār Pasuram - 108 Divya Desams",
+  "description": "A digital heritage and exploration platform for the 12 Āḻvārs, 4000 Divya Prabandham Pasurams, and 108 Divya Desams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

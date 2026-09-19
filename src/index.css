@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, button, input, select, textarea {
+    font-family: "Times New Roman", Times, serif;
+    color: #241B18;
+  }
+}
+
+@layer utilities {
+  .font-serif-classical,
+  .font-display,
+  .font-heritage,
+  .font-sans,
+  .font-serif {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .font-tamil {
+    font-family: "Noto Serif Tamil", serif;
+    line-height: 1.85;
+    padding-top: 0.12rem;
+    padding-bottom: 0.12rem;
+  }
+}
+
+/* Custom scrollbar for readable verse reading */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f7f3ec;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6c5af;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bfa88d;
+}
